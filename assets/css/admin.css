@@ -1,0 +1,2090 @@
+#pagespeed_today_settings {
+    background: #fff;
+    padding: 30px;
+}
+#pagespeed_today_title {
+    color: #777771;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    max-width: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 40px;
+}
+#pagespeed_today_settings .button-primary {
+    border-radius: 0px !important;
+    letter-spacing: .5px !important;
+    background: #3483de !important;
+    border-color: #3483de !important;
+    color: #fff !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-weight: 500 !important;
+    text-shadow: none !important;
+    font-size: 0.85714286em !important;
+}
+#pagespeed_today_settings .button-secondary {
+    border-radius: 0px !important;
+    letter-spacing: .5px !important;
+    background: #fff !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-weight: 500 !important;
+    text-shadow: none !important;
+    color: #252525 !important;
+    border-color: #252525 !important;
+    font-size: 0.85714286em !important;
+    margin-right: 10px;
+}
+#pagespeed_today_settings .nav-tab-active {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    color: #fff !important;
+    background: #3483de !important;
+    font-size: 0.85714286em !important;
+    font-weight: 500 !important;
+    letter-spacing: .5px !important;
+}
+#pagespeed_today_settings .nav-tab {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    color: #252525;
+    background: #fff;
+    font-size: 0.85714286em !important;
+    font-weight: 500 !important;
+    letter-spacing: .5px !important;
+}
+#pagespeed_today_settings input[type='checkbox'] {
+    float: left;
+    margin-right: 15px;
+    display: block;
+    margin-top: 6px;
+    -webkit-appearance: button;
+    border: none;
+    background-color: #fe7b83;
+    width: 60px;
+    height: 30px;
+    border-radius: 0px;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    position: relative;
+    transition: background-color 1s;
+}
+#pagespeed_today_settings input[type='checkbox'].error {
+    background-color: #c63d3d;
+}
+#pagespeed_today_settings input[type='checkbox']:before {
+    content: "" !important;
+}
+#pagespeed_today_settings input[type='checkbox']:after {
+    content: "" !important;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 86%;
+    background-color: #fdfdfd;
+    margin: 4%;
+    border-radius: 0px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(243, 243, 243, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(243, 243, 243, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3', GradientType=0);
+    transition: .5s all;
+}
+#pagespeed_today_settings input[type='checkbox']:checked {
+    background-color: #1cbb9d;
+}
+#pagespeed_today_settings input[type='checkbox']:checked:after {
+    left: 45%;
+}
+#pagespeed_today_settings .controls {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#pagespeed_today_settings .premium_notice {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#pagespeed_today_settings .controls .message {
+    text-align: center;
+    display: none;
+}
+#pagespeed_today_settings .stats {
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    margin: 18px;
+    min-height: 400px;
+}
+#pagespeed_today_settings .stats .content {
+    padding: 40px;
+}
+#pagespeed_today_settings .stats .content h2 {
+    font-size: 42px;
+    color: #3483de !important;
+    line-height: 37px;
+}
+#pagespeed_today_settings .stats .content h3 {
+    font-size: 24px;
+    line-height: normal;
+}
+#pagespeed_today_settings .stats .content p {
+    font-size: 18px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#pagespeed_today_settings .red {
+    color: #EC644B;
+}
+#pagespeed_today_settings .green {
+    color: #87D37C;
+}
+#pagespeed_today_settings .yellow {
+    color: #F5D76E;
+}
+#post-table_wrapper, #backup-table_wrapper {
+    margin-top: 30px;
+}
+#post-table form {
+    text-align: center;
+    display: inline-block;
+    width: 145px;
+}
+#post-table tbody td:nth-child(1) {
+    text-align: center;
+}
+#post-table tbody td:nth-child(3) {
+    text-align: center;
+}
+#post-table tbody td:nth-child(4) {
+    text-align: center;
+}
+#post-table tbody td:nth-child(5) {
+    text-align: center;
+}
+#post-table tbody td:nth-child(6) {
+    text-align: center;
+}
+#backup-table {
+    margin-top: 20px;
+}
+#backup-table form {
+    text-align: center;
+    display: inline-block;
+    width: 145px;
+}
+#backup-table tbody td:nth-child(1) {
+    text-align: center;
+}
+#backup-table tbody td:nth-child(3) {
+    text-align: center;
+}
+#backup-table tbody td:nth-child(4) {
+    text-align: center;
+}
+#backup-table tbody td:nth-child(5) {
+    text-align: center;
+}
+#backup-table tbody td:nth-child(6) {
+    text-align: center;
+}
+.rect-auto,
+.c100.p51 .slice,
+.c100.p52 .slice,
+.c100.p53 .slice,
+.c100.p54 .slice,
+.c100.p55 .slice,
+.c100.p56 .slice,
+.c100.p57 .slice,
+.c100.p58 .slice,
+.c100.p59 .slice,
+.c100.p60 .slice,
+.c100.p61 .slice,
+.c100.p62 .slice,
+.c100.p63 .slice,
+.c100.p64 .slice,
+.c100.p65 .slice,
+.c100.p66 .slice,
+.c100.p67 .slice,
+.c100.p68 .slice,
+.c100.p69 .slice,
+.c100.p70 .slice,
+.c100.p71 .slice,
+.c100.p72 .slice,
+.c100.p73 .slice,
+.c100.p74 .slice,
+.c100.p75 .slice,
+.c100.p76 .slice,
+.c100.p77 .slice,
+.c100.p78 .slice,
+.c100.p79 .slice,
+.c100.p80 .slice,
+.c100.p81 .slice,
+.c100.p82 .slice,
+.c100.p83 .slice,
+.c100.p84 .slice,
+.c100.p85 .slice,
+.c100.p86 .slice,
+.c100.p87 .slice,
+.c100.p88 .slice,
+.c100.p89 .slice,
+.c100.p90 .slice,
+.c100.p91 .slice,
+.c100.p92 .slice,
+.c100.p93 .slice,
+.c100.p94 .slice,
+.c100.p95 .slice,
+.c100.p96 .slice,
+.c100.p97 .slice,
+.c100.p98 .slice,
+.c100.p99 .slice,
+.c100.p100 .slice {
+    clip: rect(auto, auto, auto, auto);
+}
+.pie,
+.c100 .bar,
+.c100.p51 .fill,
+.c100.p52 .fill,
+.c100.p53 .fill,
+.c100.p54 .fill,
+.c100.p55 .fill,
+.c100.p56 .fill,
+.c100.p57 .fill,
+.c100.p58 .fill,
+.c100.p59 .fill,
+.c100.p60 .fill,
+.c100.p61 .fill,
+.c100.p62 .fill,
+.c100.p63 .fill,
+.c100.p64 .fill,
+.c100.p65 .fill,
+.c100.p66 .fill,
+.c100.p67 .fill,
+.c100.p68 .fill,
+.c100.p69 .fill,
+.c100.p70 .fill,
+.c100.p71 .fill,
+.c100.p72 .fill,
+.c100.p73 .fill,
+.c100.p74 .fill,
+.c100.p75 .fill,
+.c100.p76 .fill,
+.c100.p77 .fill,
+.c100.p78 .fill,
+.c100.p79 .fill,
+.c100.p80 .fill,
+.c100.p81 .fill,
+.c100.p82 .fill,
+.c100.p83 .fill,
+.c100.p84 .fill,
+.c100.p85 .fill,
+.c100.p86 .fill,
+.c100.p87 .fill,
+.c100.p88 .fill,
+.c100.p89 .fill,
+.c100.p90 .fill,
+.c100.p91 .fill,
+.c100.p92 .fill,
+.c100.p93 .fill,
+.c100.p94 .fill,
+.c100.p95 .fill,
+.c100.p96 .fill,
+.c100.p97 .fill,
+.c100.p98 .fill,
+.c100.p99 .fill,
+.c100.p100 .fill {
+    position: absolute;
+    border: 0.08em solid #307bbb;
+    width: 0.84em;
+    height: 0.84em;
+    clip: rect(0em, 0.5em, 1em, 0em);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.pie-fill,
+.c100.p51 .bar:after,
+.c100.p51 .fill,
+.c100.p52 .bar:after,
+.c100.p52 .fill,
+.c100.p53 .bar:after,
+.c100.p53 .fill,
+.c100.p54 .bar:after,
+.c100.p54 .fill,
+.c100.p55 .bar:after,
+.c100.p55 .fill,
+.c100.p56 .bar:after,
+.c100.p56 .fill,
+.c100.p57 .bar:after,
+.c100.p57 .fill,
+.c100.p58 .bar:after,
+.c100.p58 .fill,
+.c100.p59 .bar:after,
+.c100.p59 .fill,
+.c100.p60 .bar:after,
+.c100.p60 .fill,
+.c100.p61 .bar:after,
+.c100.p61 .fill,
+.c100.p62 .bar:after,
+.c100.p62 .fill,
+.c100.p63 .bar:after,
+.c100.p63 .fill,
+.c100.p64 .bar:after,
+.c100.p64 .fill,
+.c100.p65 .bar:after,
+.c100.p65 .fill,
+.c100.p66 .bar:after,
+.c100.p66 .fill,
+.c100.p67 .bar:after,
+.c100.p67 .fill,
+.c100.p68 .bar:after,
+.c100.p68 .fill,
+.c100.p69 .bar:after,
+.c100.p69 .fill,
+.c100.p70 .bar:after,
+.c100.p70 .fill,
+.c100.p71 .bar:after,
+.c100.p71 .fill,
+.c100.p72 .bar:after,
+.c100.p72 .fill,
+.c100.p73 .bar:after,
+.c100.p73 .fill,
+.c100.p74 .bar:after,
+.c100.p74 .fill,
+.c100.p75 .bar:after,
+.c100.p75 .fill,
+.c100.p76 .bar:after,
+.c100.p76 .fill,
+.c100.p77 .bar:after,
+.c100.p77 .fill,
+.c100.p78 .bar:after,
+.c100.p78 .fill,
+.c100.p79 .bar:after,
+.c100.p79 .fill,
+.c100.p80 .bar:after,
+.c100.p80 .fill,
+.c100.p81 .bar:after,
+.c100.p81 .fill,
+.c100.p82 .bar:after,
+.c100.p82 .fill,
+.c100.p83 .bar:after,
+.c100.p83 .fill,
+.c100.p84 .bar:after,
+.c100.p84 .fill,
+.c100.p85 .bar:after,
+.c100.p85 .fill,
+.c100.p86 .bar:after,
+.c100.p86 .fill,
+.c100.p87 .bar:after,
+.c100.p87 .fill,
+.c100.p88 .bar:after,
+.c100.p88 .fill,
+.c100.p89 .bar:after,
+.c100.p89 .fill,
+.c100.p90 .bar:after,
+.c100.p90 .fill,
+.c100.p91 .bar:after,
+.c100.p91 .fill,
+.c100.p92 .bar:after,
+.c100.p92 .fill,
+.c100.p93 .bar:after,
+.c100.p93 .fill,
+.c100.p94 .bar:after,
+.c100.p94 .fill,
+.c100.p95 .bar:after,
+.c100.p95 .fill,
+.c100.p96 .bar:after,
+.c100.p96 .fill,
+.c100.p97 .bar:after,
+.c100.p97 .fill,
+.c100.p98 .bar:after,
+.c100.p98 .fill,
+.c100.p99 .bar:after,
+.c100.p99 .fill,
+.c100.p100 .bar:after,
+.c100.p100 .fill {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.c100 {
+    position: relative;
+    font-size: 120px;
+    width: 1em;
+    height: 1em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0.1em 0.1em 0;
+    background-color: #cccccc;
+}
+.c100 *,
+.c100 *:before,
+.c100 *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.c100.center {
+    float: none;
+    margin: 0 auto;
+}
+.c100.big {
+    font-size: 240px;
+}
+.c100.small {
+    font-size: 80px;
+}
+.c100 > span {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 5em;
+    line-height: 5em;
+    font-size: 0.2em;
+    color: #cccccc;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.c100:after {
+    position: absolute;
+    top: 0.08em;
+    left: 0.08em;
+    display: block;
+    content: " ";
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    width: 0.84em;
+    height: 0.84em;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+}
+.c100 .slice {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+    clip: rect(0em, 1em, 1em, 0.5em);
+}
+.c100.p1 .bar {
+    -webkit-transform: rotate(3.6deg);
+    -moz-transform: rotate(3.6deg);
+    -ms-transform: rotate(3.6deg);
+    -o-transform: rotate(3.6deg);
+    transform: rotate(3.6deg);
+}
+.c100.p2 .bar {
+    -webkit-transform: rotate(7.2deg);
+    -moz-transform: rotate(7.2deg);
+    -ms-transform: rotate(7.2deg);
+    -o-transform: rotate(7.2deg);
+    transform: rotate(7.2deg);
+}
+.c100.p3 .bar {
+    -webkit-transform: rotate(10.8deg);
+    -moz-transform: rotate(10.8deg);
+    -ms-transform: rotate(10.8deg);
+    -o-transform: rotate(10.8deg);
+    transform: rotate(10.8deg);
+}
+.c100.p4 .bar {
+    -webkit-transform: rotate(14.4deg);
+    -moz-transform: rotate(14.4deg);
+    -ms-transform: rotate(14.4deg);
+    -o-transform: rotate(14.4deg);
+    transform: rotate(14.4deg);
+}
+.c100.p5 .bar {
+    -webkit-transform: rotate(18deg);
+    -moz-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    -o-transform: rotate(18deg);
+    transform: rotate(18deg);
+}
+.c100.p6 .bar {
+    -webkit-transform: rotate(21.6deg);
+    -moz-transform: rotate(21.6deg);
+    -ms-transform: rotate(21.6deg);
+    -o-transform: rotate(21.6deg);
+    transform: rotate(21.6deg);
+}
+.c100.p7 .bar {
+    -webkit-transform: rotate(25.2deg);
+    -moz-transform: rotate(25.2deg);
+    -ms-transform: rotate(25.2deg);
+    -o-transform: rotate(25.2deg);
+    transform: rotate(25.2deg);
+}
+.c100.p8 .bar {
+    -webkit-transform: rotate(28.8deg);
+    -moz-transform: rotate(28.8deg);
+    -ms-transform: rotate(28.8deg);
+    -o-transform: rotate(28.8deg);
+    transform: rotate(28.8deg);
+}
+.c100.p9 .bar {
+    -webkit-transform: rotate(32.4deg);
+    -moz-transform: rotate(32.4deg);
+    -ms-transform: rotate(32.4deg);
+    -o-transform: rotate(32.4deg);
+    transform: rotate(32.4deg);
+}
+.c100.p10 .bar {
+    -webkit-transform: rotate(36deg);
+    -moz-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    -o-transform: rotate(36deg);
+    transform: rotate(36deg);
+}
+.c100.p11 .bar {
+    -webkit-transform: rotate(39.6deg);
+    -moz-transform: rotate(39.6deg);
+    -ms-transform: rotate(39.6deg);
+    -o-transform: rotate(39.6deg);
+    transform: rotate(39.6deg);
+}
+.c100.p12 .bar {
+    -webkit-transform: rotate(43.2deg);
+    -moz-transform: rotate(43.2deg);
+    -ms-transform: rotate(43.2deg);
+    -o-transform: rotate(43.2deg);
+    transform: rotate(43.2deg);
+}
+.c100.p13 .bar {
+    -webkit-transform: rotate(46.8deg);
+    -moz-transform: rotate(46.8deg);
+    -ms-transform: rotate(46.8deg);
+    -o-transform: rotate(46.8deg);
+    transform: rotate(46.8deg);
+}
+.c100.p14 .bar {
+    -webkit-transform: rotate(50.4deg);
+    -moz-transform: rotate(50.4deg);
+    -ms-transform: rotate(50.4deg);
+    -o-transform: rotate(50.4deg);
+    transform: rotate(50.4deg);
+}
+.c100.p15 .bar {
+    -webkit-transform: rotate(54deg);
+    -moz-transform: rotate(54deg);
+    -ms-transform: rotate(54deg);
+    -o-transform: rotate(54deg);
+    transform: rotate(54deg);
+}
+.c100.p16 .bar {
+    -webkit-transform: rotate(57.6deg);
+    -moz-transform: rotate(57.6deg);
+    -ms-transform: rotate(57.6deg);
+    -o-transform: rotate(57.6deg);
+    transform: rotate(57.6deg);
+}
+.c100.p17 .bar {
+    -webkit-transform: rotate(61.2deg);
+    -moz-transform: rotate(61.2deg);
+    -ms-transform: rotate(61.2deg);
+    -o-transform: rotate(61.2deg);
+    transform: rotate(61.2deg);
+}
+.c100.p18 .bar {
+    -webkit-transform: rotate(64.8deg);
+    -moz-transform: rotate(64.8deg);
+    -ms-transform: rotate(64.8deg);
+    -o-transform: rotate(64.8deg);
+    transform: rotate(64.8deg);
+}
+.c100.p19 .bar {
+    -webkit-transform: rotate(68.4deg);
+    -moz-transform: rotate(68.4deg);
+    -ms-transform: rotate(68.4deg);
+    -o-transform: rotate(68.4deg);
+    transform: rotate(68.4deg);
+}
+.c100.p20 .bar {
+    -webkit-transform: rotate(72deg);
+    -moz-transform: rotate(72deg);
+    -ms-transform: rotate(72deg);
+    -o-transform: rotate(72deg);
+    transform: rotate(72deg);
+}
+.c100.p21 .bar {
+    -webkit-transform: rotate(75.6deg);
+    -moz-transform: rotate(75.6deg);
+    -ms-transform: rotate(75.6deg);
+    -o-transform: rotate(75.6deg);
+    transform: rotate(75.6deg);
+}
+.c100.p22 .bar {
+    -webkit-transform: rotate(79.2deg);
+    -moz-transform: rotate(79.2deg);
+    -ms-transform: rotate(79.2deg);
+    -o-transform: rotate(79.2deg);
+    transform: rotate(79.2deg);
+}
+.c100.p23 .bar {
+    -webkit-transform: rotate(82.8deg);
+    -moz-transform: rotate(82.8deg);
+    -ms-transform: rotate(82.8deg);
+    -o-transform: rotate(82.8deg);
+    transform: rotate(82.8deg);
+}
+.c100.p24 .bar {
+    -webkit-transform: rotate(86.4deg);
+    -moz-transform: rotate(86.4deg);
+    -ms-transform: rotate(86.4deg);
+    -o-transform: rotate(86.4deg);
+    transform: rotate(86.4deg);
+}
+.c100.p25 .bar {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.c100.p26 .bar {
+    -webkit-transform: rotate(93.6deg);
+    -moz-transform: rotate(93.6deg);
+    -ms-transform: rotate(93.6deg);
+    -o-transform: rotate(93.6deg);
+    transform: rotate(93.6deg);
+}
+.c100.p27 .bar {
+    -webkit-transform: rotate(97.2deg);
+    -moz-transform: rotate(97.2deg);
+    -ms-transform: rotate(97.2deg);
+    -o-transform: rotate(97.2deg);
+    transform: rotate(97.2deg);
+}
+.c100.p28 .bar {
+    -webkit-transform: rotate(100.8deg);
+    -moz-transform: rotate(100.8deg);
+    -ms-transform: rotate(100.8deg);
+    -o-transform: rotate(100.8deg);
+    transform: rotate(100.8deg);
+}
+.c100.p29 .bar {
+    -webkit-transform: rotate(104.4deg);
+    -moz-transform: rotate(104.4deg);
+    -ms-transform: rotate(104.4deg);
+    -o-transform: rotate(104.4deg);
+    transform: rotate(104.4deg);
+}
+.c100.p30 .bar {
+    -webkit-transform: rotate(108deg);
+    -moz-transform: rotate(108deg);
+    -ms-transform: rotate(108deg);
+    -o-transform: rotate(108deg);
+    transform: rotate(108deg);
+}
+.c100.p31 .bar {
+    -webkit-transform: rotate(111.6deg);
+    -moz-transform: rotate(111.6deg);
+    -ms-transform: rotate(111.6deg);
+    -o-transform: rotate(111.6deg);
+    transform: rotate(111.6deg);
+}
+.c100.p32 .bar {
+    -webkit-transform: rotate(115.2deg);
+    -moz-transform: rotate(115.2deg);
+    -ms-transform: rotate(115.2deg);
+    -o-transform: rotate(115.2deg);
+    transform: rotate(115.2deg);
+}
+.c100.p33 .bar {
+    -webkit-transform: rotate(118.8deg);
+    -moz-transform: rotate(118.8deg);
+    -ms-transform: rotate(118.8deg);
+    -o-transform: rotate(118.8deg);
+    transform: rotate(118.8deg);
+}
+.c100.p34 .bar {
+    -webkit-transform: rotate(122.4deg);
+    -moz-transform: rotate(122.4deg);
+    -ms-transform: rotate(122.4deg);
+    -o-transform: rotate(122.4deg);
+    transform: rotate(122.4deg);
+}
+.c100.p35 .bar {
+    -webkit-transform: rotate(126deg);
+    -moz-transform: rotate(126deg);
+    -ms-transform: rotate(126deg);
+    -o-transform: rotate(126deg);
+    transform: rotate(126deg);
+}
+.c100.p36 .bar {
+    -webkit-transform: rotate(129.6deg);
+    -moz-transform: rotate(129.6deg);
+    -ms-transform: rotate(129.6deg);
+    -o-transform: rotate(129.6deg);
+    transform: rotate(129.6deg);
+}
+.c100.p37 .bar {
+    -webkit-transform: rotate(133.2deg);
+    -moz-transform: rotate(133.2deg);
+    -ms-transform: rotate(133.2deg);
+    -o-transform: rotate(133.2deg);
+    transform: rotate(133.2deg);
+}
+.c100.p38 .bar {
+    -webkit-transform: rotate(136.8deg);
+    -moz-transform: rotate(136.8deg);
+    -ms-transform: rotate(136.8deg);
+    -o-transform: rotate(136.8deg);
+    transform: rotate(136.8deg);
+}
+.c100.p39 .bar {
+    -webkit-transform: rotate(140.4deg);
+    -moz-transform: rotate(140.4deg);
+    -ms-transform: rotate(140.4deg);
+    -o-transform: rotate(140.4deg);
+    transform: rotate(140.4deg);
+}
+.c100.p40 .bar {
+    -webkit-transform: rotate(144deg);
+    -moz-transform: rotate(144deg);
+    -ms-transform: rotate(144deg);
+    -o-transform: rotate(144deg);
+    transform: rotate(144deg);
+}
+.c100.p41 .bar {
+    -webkit-transform: rotate(147.6deg);
+    -moz-transform: rotate(147.6deg);
+    -ms-transform: rotate(147.6deg);
+    -o-transform: rotate(147.6deg);
+    transform: rotate(147.6deg);
+}
+.c100.p42 .bar {
+    -webkit-transform: rotate(151.2deg);
+    -moz-transform: rotate(151.2deg);
+    -ms-transform: rotate(151.2deg);
+    -o-transform: rotate(151.2deg);
+    transform: rotate(151.2deg);
+}
+.c100.p43 .bar {
+    -webkit-transform: rotate(154.8deg);
+    -moz-transform: rotate(154.8deg);
+    -ms-transform: rotate(154.8deg);
+    -o-transform: rotate(154.8deg);
+    transform: rotate(154.8deg);
+}
+.c100.p44 .bar {
+    -webkit-transform: rotate(158.4deg);
+    -moz-transform: rotate(158.4deg);
+    -ms-transform: rotate(158.4deg);
+    -o-transform: rotate(158.4deg);
+    transform: rotate(158.4deg);
+}
+.c100.p45 .bar {
+    -webkit-transform: rotate(162deg);
+    -moz-transform: rotate(162deg);
+    -ms-transform: rotate(162deg);
+    -o-transform: rotate(162deg);
+    transform: rotate(162deg);
+}
+.c100.p46 .bar {
+    -webkit-transform: rotate(165.6deg);
+    -moz-transform: rotate(165.6deg);
+    -ms-transform: rotate(165.6deg);
+    -o-transform: rotate(165.6deg);
+    transform: rotate(165.6deg);
+}
+.c100.p47 .bar {
+    -webkit-transform: rotate(169.2deg);
+    -moz-transform: rotate(169.2deg);
+    -ms-transform: rotate(169.2deg);
+    -o-transform: rotate(169.2deg);
+    transform: rotate(169.2deg);
+}
+.c100.p48 .bar {
+    -webkit-transform: rotate(172.8deg);
+    -moz-transform: rotate(172.8deg);
+    -ms-transform: rotate(172.8deg);
+    -o-transform: rotate(172.8deg);
+    transform: rotate(172.8deg);
+}
+.c100.p49 .bar {
+    -webkit-transform: rotate(176.4deg);
+    -moz-transform: rotate(176.4deg);
+    -ms-transform: rotate(176.4deg);
+    -o-transform: rotate(176.4deg);
+    transform: rotate(176.4deg);
+}
+.c100.p50 .bar {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.c100.p51 .bar {
+    -webkit-transform: rotate(183.6deg);
+    -moz-transform: rotate(183.6deg);
+    -ms-transform: rotate(183.6deg);
+    -o-transform: rotate(183.6deg);
+    transform: rotate(183.6deg);
+}
+.c100.p52 .bar {
+    -webkit-transform: rotate(187.2deg);
+    -moz-transform: rotate(187.2deg);
+    -ms-transform: rotate(187.2deg);
+    -o-transform: rotate(187.2deg);
+    transform: rotate(187.2deg);
+}
+.c100.p53 .bar {
+    -webkit-transform: rotate(190.8deg);
+    -moz-transform: rotate(190.8deg);
+    -ms-transform: rotate(190.8deg);
+    -o-transform: rotate(190.8deg);
+    transform: rotate(190.8deg);
+}
+.c100.p54 .bar {
+    -webkit-transform: rotate(194.4deg);
+    -moz-transform: rotate(194.4deg);
+    -ms-transform: rotate(194.4deg);
+    -o-transform: rotate(194.4deg);
+    transform: rotate(194.4deg);
+}
+.c100.p55 .bar {
+    -webkit-transform: rotate(198deg);
+    -moz-transform: rotate(198deg);
+    -ms-transform: rotate(198deg);
+    -o-transform: rotate(198deg);
+    transform: rotate(198deg);
+}
+.c100.p56 .bar {
+    -webkit-transform: rotate(201.6deg);
+    -moz-transform: rotate(201.6deg);
+    -ms-transform: rotate(201.6deg);
+    -o-transform: rotate(201.6deg);
+    transform: rotate(201.6deg);
+}
+.c100.p57 .bar {
+    -webkit-transform: rotate(205.2deg);
+    -moz-transform: rotate(205.2deg);
+    -ms-transform: rotate(205.2deg);
+    -o-transform: rotate(205.2deg);
+    transform: rotate(205.2deg);
+}
+.c100.p58 .bar {
+    -webkit-transform: rotate(208.8deg);
+    -moz-transform: rotate(208.8deg);
+    -ms-transform: rotate(208.8deg);
+    -o-transform: rotate(208.8deg);
+    transform: rotate(208.8deg);
+}
+.c100.p59 .bar {
+    -webkit-transform: rotate(212.4deg);
+    -moz-transform: rotate(212.4deg);
+    -ms-transform: rotate(212.4deg);
+    -o-transform: rotate(212.4deg);
+    transform: rotate(212.4deg);
+}
+.c100.p60 .bar {
+    -webkit-transform: rotate(216deg);
+    -moz-transform: rotate(216deg);
+    -ms-transform: rotate(216deg);
+    -o-transform: rotate(216deg);
+    transform: rotate(216deg);
+}
+.c100.p61 .bar {
+    -webkit-transform: rotate(219.6deg);
+    -moz-transform: rotate(219.6deg);
+    -ms-transform: rotate(219.6deg);
+    -o-transform: rotate(219.6deg);
+    transform: rotate(219.6deg);
+}
+.c100.p62 .bar {
+    -webkit-transform: rotate(223.2deg);
+    -moz-transform: rotate(223.2deg);
+    -ms-transform: rotate(223.2deg);
+    -o-transform: rotate(223.2deg);
+    transform: rotate(223.2deg);
+}
+.c100.p63 .bar {
+    -webkit-transform: rotate(226.8deg);
+    -moz-transform: rotate(226.8deg);
+    -ms-transform: rotate(226.8deg);
+    -o-transform: rotate(226.8deg);
+    transform: rotate(226.8deg);
+}
+.c100.p64 .bar {
+    -webkit-transform: rotate(230.4deg);
+    -moz-transform: rotate(230.4deg);
+    -ms-transform: rotate(230.4deg);
+    -o-transform: rotate(230.4deg);
+    transform: rotate(230.4deg);
+}
+.c100.p65 .bar {
+    -webkit-transform: rotate(234deg);
+    -moz-transform: rotate(234deg);
+    -ms-transform: rotate(234deg);
+    -o-transform: rotate(234deg);
+    transform: rotate(234deg);
+}
+.c100.p66 .bar {
+    -webkit-transform: rotate(237.6deg);
+    -moz-transform: rotate(237.6deg);
+    -ms-transform: rotate(237.6deg);
+    -o-transform: rotate(237.6deg);
+    transform: rotate(237.6deg);
+}
+.c100.p67 .bar {
+    -webkit-transform: rotate(241.2deg);
+    -moz-transform: rotate(241.2deg);
+    -ms-transform: rotate(241.2deg);
+    -o-transform: rotate(241.2deg);
+    transform: rotate(241.2deg);
+}
+.c100.p68 .bar {
+    -webkit-transform: rotate(244.8deg);
+    -moz-transform: rotate(244.8deg);
+    -ms-transform: rotate(244.8deg);
+    -o-transform: rotate(244.8deg);
+    transform: rotate(244.8deg);
+}
+.c100.p69 .bar {
+    -webkit-transform: rotate(248.4deg);
+    -moz-transform: rotate(248.4deg);
+    -ms-transform: rotate(248.4deg);
+    -o-transform: rotate(248.4deg);
+    transform: rotate(248.4deg);
+}
+.c100.p70 .bar {
+    -webkit-transform: rotate(252deg);
+    -moz-transform: rotate(252deg);
+    -ms-transform: rotate(252deg);
+    -o-transform: rotate(252deg);
+    transform: rotate(252deg);
+}
+.c100.p71 .bar {
+    -webkit-transform: rotate(255.6deg);
+    -moz-transform: rotate(255.6deg);
+    -ms-transform: rotate(255.6deg);
+    -o-transform: rotate(255.6deg);
+    transform: rotate(255.6deg);
+}
+.c100.p72 .bar {
+    -webkit-transform: rotate(259.2deg);
+    -moz-transform: rotate(259.2deg);
+    -ms-transform: rotate(259.2deg);
+    -o-transform: rotate(259.2deg);
+    transform: rotate(259.2deg);
+}
+.c100.p73 .bar {
+    -webkit-transform: rotate(262.8deg);
+    -moz-transform: rotate(262.8deg);
+    -ms-transform: rotate(262.8deg);
+    -o-transform: rotate(262.8deg);
+    transform: rotate(262.8deg);
+}
+.c100.p74 .bar {
+    -webkit-transform: rotate(266.4deg);
+    -moz-transform: rotate(266.4deg);
+    -ms-transform: rotate(266.4deg);
+    -o-transform: rotate(266.4deg);
+    transform: rotate(266.4deg);
+}
+.c100.p75 .bar {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.c100.p76 .bar {
+    -webkit-transform: rotate(273.6deg);
+    -moz-transform: rotate(273.6deg);
+    -ms-transform: rotate(273.6deg);
+    -o-transform: rotate(273.6deg);
+    transform: rotate(273.6deg);
+}
+.c100.p77 .bar {
+    -webkit-transform: rotate(277.2deg);
+    -moz-transform: rotate(277.2deg);
+    -ms-transform: rotate(277.2deg);
+    -o-transform: rotate(277.2deg);
+    transform: rotate(277.2deg);
+}
+.c100.p78 .bar {
+    -webkit-transform: rotate(280.8deg);
+    -moz-transform: rotate(280.8deg);
+    -ms-transform: rotate(280.8deg);
+    -o-transform: rotate(280.8deg);
+    transform: rotate(280.8deg);
+}
+.c100.p79 .bar {
+    -webkit-transform: rotate(284.4deg);
+    -moz-transform: rotate(284.4deg);
+    -ms-transform: rotate(284.4deg);
+    -o-transform: rotate(284.4deg);
+    transform: rotate(284.4deg);
+}
+.c100.p80 .bar {
+    -webkit-transform: rotate(288deg);
+    -moz-transform: rotate(288deg);
+    -ms-transform: rotate(288deg);
+    -o-transform: rotate(288deg);
+    transform: rotate(288deg);
+}
+.c100.p81 .bar {
+    -webkit-transform: rotate(291.6deg);
+    -moz-transform: rotate(291.6deg);
+    -ms-transform: rotate(291.6deg);
+    -o-transform: rotate(291.6deg);
+    transform: rotate(291.6deg);
+}
+.c100.p82 .bar {
+    -webkit-transform: rotate(295.2deg);
+    -moz-transform: rotate(295.2deg);
+    -ms-transform: rotate(295.2deg);
+    -o-transform: rotate(295.2deg);
+    transform: rotate(295.2deg);
+}
+.c100.p83 .bar {
+    -webkit-transform: rotate(298.8deg);
+    -moz-transform: rotate(298.8deg);
+    -ms-transform: rotate(298.8deg);
+    -o-transform: rotate(298.8deg);
+    transform: rotate(298.8deg);
+}
+.c100.p84 .bar {
+    -webkit-transform: rotate(302.4deg);
+    -moz-transform: rotate(302.4deg);
+    -ms-transform: rotate(302.4deg);
+    -o-transform: rotate(302.4deg);
+    transform: rotate(302.4deg);
+}
+.c100.p85 .bar {
+    -webkit-transform: rotate(306deg);
+    -moz-transform: rotate(306deg);
+    -ms-transform: rotate(306deg);
+    -o-transform: rotate(306deg);
+    transform: rotate(306deg);
+}
+.c100.p86 .bar {
+    -webkit-transform: rotate(309.6deg);
+    -moz-transform: rotate(309.6deg);
+    -ms-transform: rotate(309.6deg);
+    -o-transform: rotate(309.6deg);
+    transform: rotate(309.6deg);
+}
+.c100.p87 .bar {
+    -webkit-transform: rotate(313.2deg);
+    -moz-transform: rotate(313.2deg);
+    -ms-transform: rotate(313.2deg);
+    -o-transform: rotate(313.2deg);
+    transform: rotate(313.2deg);
+}
+.c100.p88 .bar {
+    -webkit-transform: rotate(316.8deg);
+    -moz-transform: rotate(316.8deg);
+    -ms-transform: rotate(316.8deg);
+    -o-transform: rotate(316.8deg);
+    transform: rotate(316.8deg);
+}
+.c100.p89 .bar {
+    -webkit-transform: rotate(320.4deg);
+    -moz-transform: rotate(320.4deg);
+    -ms-transform: rotate(320.4deg);
+    -o-transform: rotate(320.4deg);
+    transform: rotate(320.4deg);
+}
+.c100.p90 .bar {
+    -webkit-transform: rotate(324deg);
+    -moz-transform: rotate(324deg);
+    -ms-transform: rotate(324deg);
+    -o-transform: rotate(324deg);
+    transform: rotate(324deg);
+}
+.c100.p91 .bar {
+    -webkit-transform: rotate(327.6deg);
+    -moz-transform: rotate(327.6deg);
+    -ms-transform: rotate(327.6deg);
+    -o-transform: rotate(327.6deg);
+    transform: rotate(327.6deg);
+}
+.c100.p92 .bar {
+    -webkit-transform: rotate(331.2deg);
+    -moz-transform: rotate(331.2deg);
+    -ms-transform: rotate(331.2deg);
+    -o-transform: rotate(331.2deg);
+    transform: rotate(331.2deg);
+}
+.c100.p93 .bar {
+    -webkit-transform: rotate(334.8deg);
+    -moz-transform: rotate(334.8deg);
+    -ms-transform: rotate(334.8deg);
+    -o-transform: rotate(334.8deg);
+    transform: rotate(334.8deg);
+}
+.c100.p94 .bar {
+    -webkit-transform: rotate(338.4deg);
+    -moz-transform: rotate(338.4deg);
+    -ms-transform: rotate(338.4deg);
+    -o-transform: rotate(338.4deg);
+    transform: rotate(338.4deg);
+}
+.c100.p95 .bar {
+    -webkit-transform: rotate(342deg);
+    -moz-transform: rotate(342deg);
+    -ms-transform: rotate(342deg);
+    -o-transform: rotate(342deg);
+    transform: rotate(342deg);
+}
+.c100.p96 .bar {
+    -webkit-transform: rotate(345.6deg);
+    -moz-transform: rotate(345.6deg);
+    -ms-transform: rotate(345.6deg);
+    -o-transform: rotate(345.6deg);
+    transform: rotate(345.6deg);
+}
+.c100.p97 .bar {
+    -webkit-transform: rotate(349.2deg);
+    -moz-transform: rotate(349.2deg);
+    -ms-transform: rotate(349.2deg);
+    -o-transform: rotate(349.2deg);
+    transform: rotate(349.2deg);
+}
+.c100.p98 .bar {
+    -webkit-transform: rotate(352.8deg);
+    -moz-transform: rotate(352.8deg);
+    -ms-transform: rotate(352.8deg);
+    -o-transform: rotate(352.8deg);
+    transform: rotate(352.8deg);
+}
+.c100.p99 .bar {
+    -webkit-transform: rotate(356.4deg);
+    -moz-transform: rotate(356.4deg);
+    -ms-transform: rotate(356.4deg);
+    -o-transform: rotate(356.4deg);
+    transform: rotate(356.4deg);
+}
+.c100.p100 .bar {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.c100:hover {
+    cursor: default;
+}
+.c100:hover > span {
+    width: 3.33em;
+    line-height: 3.33em;
+    font-size: 0.3em;
+    color: #307bbb;
+}
+.c100:hover:after {
+    top: 0.04em;
+    left: 0.04em;
+    width: 0.92em;
+    height: 0.92em;
+}
+.c100.dark {
+    background-color: #777777;
+}
+.c100.dark .bar,
+.c100.dark .fill {
+    border-color: #c6ff00 !important;
+}
+.c100.dark > span {
+    color: #777777;
+}
+.c100.dark:after {
+    background-color: #666666;
+}
+.c100.dark:hover > span {
+    color: #c6ff00;
+}
+.c100.green .bar,
+.c100.green .fill {
+    border-color: #4db53c !important;
+}
+.c100.green:hover > span {
+    color: #4db53c;
+}
+.c100.green.dark .bar,
+.c100.green.dark .fill {
+    border-color: #5fd400 !important;
+}
+.c100.green.dark:hover > span {
+    color: #5fd400;
+}
+.c100.orange .bar,
+.c100.orange .fill {
+    border-color: #dd9d22 !important;
+}
+.c100.orange:hover > span {
+    color: #dd9d22;
+}
+.c100.orange.dark .bar,
+.c100.orange.dark .fill {
+    border-color: #e08833 !important;
+}
+.c100.orange.dark:hover > span {
+    color: #e08833;
+}
+.progress progress[value="0"] + .progress-value:before {
+    content: "0%";
+}
+.progress progress[value="0"] ~ .progress-bg .progress-bar {
+    width: 0%;
+}
+.progress progress[value="1"] + .progress-value:before {
+    content: "1%";
+}
+.progress progress[value="1"] ~ .progress-bg .progress-bar {
+    width: 1%;
+}
+.progress progress[value="2"] + .progress-value:before {
+    content: "2%";
+}
+.progress progress[value="2"] ~ .progress-bg .progress-bar {
+    width: 2%;
+}
+.progress progress[value="3"] + .progress-value:before {
+    content: "3%";
+}
+.progress progress[value="3"] ~ .progress-bg .progress-bar {
+    width: 3%;
+}
+.progress progress[value="4"] + .progress-value:before {
+    content: "4%";
+}
+.progress progress[value="4"] ~ .progress-bg .progress-bar {
+    width: 4%;
+}
+.progress progress[value="5"] + .progress-value:before {
+    content: "5%";
+}
+.progress progress[value="5"] ~ .progress-bg .progress-bar {
+    width: 5%;
+}
+.progress progress[value="6"] + .progress-value:before {
+    content: "6%";
+}
+.progress progress[value="6"] ~ .progress-bg .progress-bar {
+    width: 6%;
+}
+.progress progress[value="7"] + .progress-value:before {
+    content: "7%";
+}
+.progress progress[value="7"] ~ .progress-bg .progress-bar {
+    width: 7%;
+}
+.progress progress[value="8"] + .progress-value:before {
+    content: "8%";
+}
+.progress progress[value="8"] ~ .progress-bg .progress-bar {
+    width: 8%;
+}
+.progress progress[value="9"] + .progress-value:before {
+    content: "9%";
+}
+.progress progress[value="9"] ~ .progress-bg .progress-bar {
+    width: 9%;
+}
+.progress progress[value="10"] + .progress-value:before {
+    content: "10%";
+}
+.progress progress[value="10"] ~ .progress-bg .progress-bar {
+    width: 10%;
+}
+.progress progress[value="11"] + .progress-value:before {
+    content: "11%";
+}
+.progress progress[value="11"] ~ .progress-bg .progress-bar {
+    width: 11%;
+}
+.progress progress[value="12"] + .progress-value:before {
+    content: "12%";
+}
+.progress progress[value="12"] ~ .progress-bg .progress-bar {
+    width: 12%;
+}
+.progress progress[value="13"] + .progress-value:before {
+    content: "13%";
+}
+.progress progress[value="13"] ~ .progress-bg .progress-bar {
+    width: 13%;
+}
+.progress progress[value="14"] + .progress-value:before {
+    content: "14%";
+}
+.progress progress[value="14"] ~ .progress-bg .progress-bar {
+    width: 14%;
+}
+.progress progress[value="15"] + .progress-value:before {
+    content: "15%";
+}
+.progress progress[value="15"] ~ .progress-bg .progress-bar {
+    width: 15%;
+}
+.progress progress[value="16"] + .progress-value:before {
+    content: "16%";
+}
+.progress progress[value="16"] ~ .progress-bg .progress-bar {
+    width: 16%;
+}
+.progress progress[value="17"] + .progress-value:before {
+    content: "17%";
+}
+.progress progress[value="17"] ~ .progress-bg .progress-bar {
+    width: 17%;
+}
+.progress progress[value="18"] + .progress-value:before {
+    content: "18%";
+}
+.progress progress[value="18"] ~ .progress-bg .progress-bar {
+    width: 18%;
+}
+.progress progress[value="19"] + .progress-value:before {
+    content: "19%";
+}
+.progress progress[value="19"] ~ .progress-bg .progress-bar {
+    width: 19%;
+}
+.progress progress[value="20"] + .progress-value:before {
+    content: "20%";
+}
+.progress progress[value="20"] ~ .progress-bg .progress-bar {
+    width: 20%;
+}
+.progress progress[value="21"] + .progress-value:before {
+    content: "21%";
+}
+.progress progress[value="21"] ~ .progress-bg .progress-bar {
+    width: 21%;
+}
+.progress progress[value="22"] + .progress-value:before {
+    content: "22%";
+}
+.progress progress[value="22"] ~ .progress-bg .progress-bar {
+    width: 22%;
+}
+.progress progress[value="23"] + .progress-value:before {
+    content: "23%";
+}
+.progress progress[value="23"] ~ .progress-bg .progress-bar {
+    width: 23%;
+}
+.progress progress[value="24"] + .progress-value:before {
+    content: "24%";
+}
+.progress progress[value="24"] ~ .progress-bg .progress-bar {
+    width: 24%;
+}
+.progress progress[value="25"] + .progress-value:before {
+    content: "25%";
+}
+.progress progress[value="25"] ~ .progress-bg .progress-bar {
+    width: 25%;
+}
+.progress progress[value="26"] + .progress-value:before {
+    content: "26%";
+}
+.progress progress[value="26"] ~ .progress-bg .progress-bar {
+    width: 26%;
+}
+.progress progress[value="27"] + .progress-value:before {
+    content: "27%";
+}
+.progress progress[value="27"] ~ .progress-bg .progress-bar {
+    width: 27%;
+}
+.progress progress[value="28"] + .progress-value:before {
+    content: "28%";
+}
+.progress progress[value="28"] ~ .progress-bg .progress-bar {
+    width: 28%;
+}
+.progress progress[value="29"] + .progress-value:before {
+    content: "29%";
+}
+.progress progress[value="29"] ~ .progress-bg .progress-bar {
+    width: 29%;
+}
+.progress progress[value="30"] + .progress-value:before {
+    content: "30%";
+}
+.progress progress[value="30"] ~ .progress-bg .progress-bar {
+    width: 30%;
+}
+.progress progress[value="31"] + .progress-value:before {
+    content: "31%";
+}
+.progress progress[value="31"] ~ .progress-bg .progress-bar {
+    width: 31%;
+}
+.progress progress[value="32"] + .progress-value:before {
+    content: "32%";
+}
+.progress progress[value="32"] ~ .progress-bg .progress-bar {
+    width: 32%;
+}
+.progress progress[value="33"] + .progress-value:before {
+    content: "33%";
+}
+.progress progress[value="33"] ~ .progress-bg .progress-bar {
+    width: 33%;
+}
+.progress progress[value="34"] + .progress-value:before {
+    content: "34%";
+}
+.progress progress[value="34"] ~ .progress-bg .progress-bar {
+    width: 34%;
+}
+.progress progress[value="35"] + .progress-value:before {
+    content: "35%";
+}
+.progress progress[value="35"] ~ .progress-bg .progress-bar {
+    width: 35%;
+}
+.progress progress[value="36"] + .progress-value:before {
+    content: "36%";
+}
+.progress progress[value="36"] ~ .progress-bg .progress-bar {
+    width: 36%;
+}
+.progress progress[value="37"] + .progress-value:before {
+    content: "37%";
+}
+.progress progress[value="37"] ~ .progress-bg .progress-bar {
+    width: 37%;
+}
+.progress progress[value="38"] + .progress-value:before {
+    content: "38%";
+}
+.progress progress[value="38"] ~ .progress-bg .progress-bar {
+    width: 38%;
+}
+.progress progress[value="39"] + .progress-value:before {
+    content: "39%";
+}
+.progress progress[value="39"] ~ .progress-bg .progress-bar {
+    width: 39%;
+}
+.progress progress[value="40"] + .progress-value:before {
+    content: "40%";
+}
+.progress progress[value="40"] ~ .progress-bg .progress-bar {
+    width: 40%;
+}
+.progress progress[value="41"] + .progress-value:before {
+    content: "41%";
+}
+.progress progress[value="41"] ~ .progress-bg .progress-bar {
+    width: 41%;
+}
+.progress progress[value="42"] + .progress-value:before {
+    content: "42%";
+}
+.progress progress[value="42"] ~ .progress-bg .progress-bar {
+    width: 42%;
+}
+.progress progress[value="43"] + .progress-value:before {
+    content: "43%";
+}
+.progress progress[value="43"] ~ .progress-bg .progress-bar {
+    width: 43%;
+}
+.progress progress[value="44"] + .progress-value:before {
+    content: "44%";
+}
+.progress progress[value="44"] ~ .progress-bg .progress-bar {
+    width: 44%;
+}
+.progress progress[value="45"] + .progress-value:before {
+    content: "45%";
+}
+.progress progress[value="45"] ~ .progress-bg .progress-bar {
+    width: 45%;
+}
+.progress progress[value="46"] + .progress-value:before {
+    content: "46%";
+}
+.progress progress[value="46"] ~ .progress-bg .progress-bar {
+    width: 46%;
+}
+.progress progress[value="47"] + .progress-value:before {
+    content: "47%";
+}
+.progress progress[value="47"] ~ .progress-bg .progress-bar {
+    width: 47%;
+}
+.progress progress[value="48"] + .progress-value:before {
+    content: "48%";
+}
+.progress progress[value="48"] ~ .progress-bg .progress-bar {
+    width: 48%;
+}
+.progress progress[value="49"] + .progress-value:before {
+    content: "49%";
+}
+.progress progress[value="49"] ~ .progress-bg .progress-bar {
+    width: 49%;
+}
+.progress progress[value="50"] + .progress-value:before {
+    content: "50%";
+}
+.progress progress[value="50"] ~ .progress-bg .progress-bar {
+    width: 50%;
+}
+.progress progress[value="51"] + .progress-value:before {
+    content: "51%";
+}
+.progress progress[value="51"] ~ .progress-bg .progress-bar {
+    width: 51%;
+}
+.progress progress[value="52"] + .progress-value:before {
+    content: "52%";
+}
+.progress progress[value="52"] ~ .progress-bg .progress-bar {
+    width: 52%;
+}
+.progress progress[value="53"] + .progress-value:before {
+    content: "53%";
+}
+.progress progress[value="53"] ~ .progress-bg .progress-bar {
+    width: 53%;
+}
+.progress progress[value="54"] + .progress-value:before {
+    content: "54%";
+}
+.progress progress[value="54"] ~ .progress-bg .progress-bar {
+    width: 54%;
+}
+.progress progress[value="55"] + .progress-value:before {
+    content: "55%";
+}
+.progress progress[value="55"] ~ .progress-bg .progress-bar {
+    width: 55%;
+}
+.progress progress[value="56"] + .progress-value:before {
+    content: "56%";
+}
+.progress progress[value="56"] ~ .progress-bg .progress-bar {
+    width: 56%;
+}
+.progress progress[value="57"] + .progress-value:before {
+    content: "57%";
+}
+.progress progress[value="57"] ~ .progress-bg .progress-bar {
+    width: 57%;
+}
+.progress progress[value="58"] + .progress-value:before {
+    content: "58%";
+}
+.progress progress[value="58"] ~ .progress-bg .progress-bar {
+    width: 58%;
+}
+.progress progress[value="59"] + .progress-value:before {
+    content: "59%";
+}
+.progress progress[value="59"] ~ .progress-bg .progress-bar {
+    width: 59%;
+}
+.progress progress[value="60"] + .progress-value:before {
+    content: "60%";
+}
+.progress progress[value="60"] ~ .progress-bg .progress-bar {
+    width: 60%;
+}
+.progress progress[value="61"] + .progress-value:before {
+    content: "61%";
+}
+.progress progress[value="61"] ~ .progress-bg .progress-bar {
+    width: 61%;
+}
+.progress progress[value="62"] + .progress-value:before {
+    content: "62%";
+}
+.progress progress[value="62"] ~ .progress-bg .progress-bar {
+    width: 62%;
+}
+.progress progress[value="63"] + .progress-value:before {
+    content: "63%";
+}
+.progress progress[value="63"] ~ .progress-bg .progress-bar {
+    width: 63%;
+}
+.progress progress[value="64"] + .progress-value:before {
+    content: "64%";
+}
+.progress progress[value="64"] ~ .progress-bg .progress-bar {
+    width: 64%;
+}
+.progress progress[value="65"] + .progress-value:before {
+    content: "65%";
+}
+.progress progress[value="65"] ~ .progress-bg .progress-bar {
+    width: 65%;
+}
+.progress progress[value="66"] + .progress-value:before {
+    content: "66%";
+}
+.progress progress[value="66"] ~ .progress-bg .progress-bar {
+    width: 66%;
+}
+.progress progress[value="67"] + .progress-value:before {
+    content: "67%";
+}
+.progress progress[value="67"] ~ .progress-bg .progress-bar {
+    width: 67%;
+}
+.progress progress[value="68"] + .progress-value:before {
+    content: "68%";
+}
+.progress progress[value="68"] ~ .progress-bg .progress-bar {
+    width: 68%;
+}
+.progress progress[value="69"] + .progress-value:before {
+    content: "69%";
+}
+.progress progress[value="69"] ~ .progress-bg .progress-bar {
+    width: 69%;
+}
+.progress progress[value="70"] + .progress-value:before {
+    content: "70%";
+}
+.progress progress[value="70"] ~ .progress-bg .progress-bar {
+    width: 70%;
+}
+.progress progress[value="71"] + .progress-value:before {
+    content: "71%";
+}
+.progress progress[value="71"] ~ .progress-bg .progress-bar {
+    width: 71%;
+}
+.progress progress[value="72"] + .progress-value:before {
+    content: "72%";
+}
+.progress progress[value="72"] ~ .progress-bg .progress-bar {
+    width: 72%;
+}
+.progress progress[value="73"] + .progress-value:before {
+    content: "73%";
+}
+.progress progress[value="73"] ~ .progress-bg .progress-bar {
+    width: 73%;
+}
+.progress progress[value="74"] + .progress-value:before {
+    content: "74%";
+}
+.progress progress[value="74"] ~ .progress-bg .progress-bar {
+    width: 74%;
+}
+.progress progress[value="75"] + .progress-value:before {
+    content: "75%";
+}
+.progress progress[value="75"] ~ .progress-bg .progress-bar {
+    width: 75%;
+}
+.progress progress[value="76"] + .progress-value:before {
+    content: "76%";
+}
+.progress progress[value="76"] ~ .progress-bg .progress-bar {
+    width: 76%;
+}
+.progress progress[value="77"] + .progress-value:before {
+    content: "77%";
+}
+.progress progress[value="77"] ~ .progress-bg .progress-bar {
+    width: 77%;
+}
+.progress progress[value="78"] + .progress-value:before {
+    content: "78%";
+}
+.progress progress[value="78"] ~ .progress-bg .progress-bar {
+    width: 78%;
+}
+.progress progress[value="79"] + .progress-value:before {
+    content: "79%";
+}
+.progress progress[value="79"] ~ .progress-bg .progress-bar {
+    width: 79%;
+}
+.progress progress[value="80"] + .progress-value:before {
+    content: "80%";
+}
+.progress progress[value="80"] ~ .progress-bg .progress-bar {
+    width: 80%;
+}
+.progress progress[value="81"] + .progress-value:before {
+    content: "81%";
+}
+.progress progress[value="81"] ~ .progress-bg .progress-bar {
+    width: 81%;
+}
+.progress progress[value="82"] + .progress-value:before {
+    content: "82%";
+}
+.progress progress[value="82"] ~ .progress-bg .progress-bar {
+    width: 82%;
+}
+.progress progress[value="83"] + .progress-value:before {
+    content: "83%";
+}
+.progress progress[value="83"] ~ .progress-bg .progress-bar {
+    width: 83%;
+}
+.progress progress[value="84"] + .progress-value:before {
+    content: "84%";
+}
+.progress progress[value="84"] ~ .progress-bg .progress-bar {
+    width: 84%;
+}
+.progress progress[value="85"] + .progress-value:before {
+    content: "85%";
+}
+.progress progress[value="85"] ~ .progress-bg .progress-bar {
+    width: 85%;
+}
+.progress progress[value="86"] + .progress-value:before {
+    content: "86%";
+}
+.progress progress[value="86"] ~ .progress-bg .progress-bar {
+    width: 86%;
+}
+.progress progress[value="87"] + .progress-value:before {
+    content: "87%";
+}
+.progress progress[value="87"] ~ .progress-bg .progress-bar {
+    width: 87%;
+}
+.progress progress[value="88"] + .progress-value:before {
+    content: "88%";
+}
+.progress progress[value="88"] ~ .progress-bg .progress-bar {
+    width: 88%;
+}
+.progress progress[value="89"] + .progress-value:before {
+    content: "89%";
+}
+.progress progress[value="89"] ~ .progress-bg .progress-bar {
+    width: 89%;
+}
+.progress progress[value="90"] + .progress-value:before {
+    content: "90%";
+}
+.progress progress[value="90"] ~ .progress-bg .progress-bar {
+    width: 90%;
+}
+.progress progress[value="91"] + .progress-value:before {
+    content: "91%";
+}
+.progress progress[value="91"] ~ .progress-bg .progress-bar {
+    width: 91%;
+}
+.progress progress[value="92"] + .progress-value:before {
+    content: "92%";
+}
+.progress progress[value="92"] ~ .progress-bg .progress-bar {
+    width: 92%;
+}
+.progress progress[value="93"] + .progress-value:before {
+    content: "93%";
+}
+.progress progress[value="93"] ~ .progress-bg .progress-bar {
+    width: 93%;
+}
+.progress progress[value="94"] + .progress-value:before {
+    content: "94%";
+}
+.progress progress[value="94"] ~ .progress-bg .progress-bar {
+    width: 94%;
+}
+.progress progress[value="95"] + .progress-value:before {
+    content: "95%";
+}
+.progress progress[value="95"] ~ .progress-bg .progress-bar {
+    width: 95%;
+}
+.progress progress[value="96"] + .progress-value:before {
+    content: "96%";
+}
+.progress progress[value="96"] ~ .progress-bg .progress-bar {
+    width: 96%;
+}
+.progress progress[value="97"] + .progress-value:before {
+    content: "97%";
+}
+.progress progress[value="97"] ~ .progress-bg .progress-bar {
+    width: 97%;
+}
+.progress progress[value="98"] + .progress-value:before {
+    content: "98%";
+}
+.progress progress[value="98"] ~ .progress-bg .progress-bar {
+    width: 98%;
+}
+.progress progress[value="99"] + .progress-value:before {
+    content: "99%";
+}
+.progress progress[value="99"] ~ .progress-bg .progress-bar {
+    width: 99%;
+}
+.progress progress[value="100"] + .progress-value:before {
+    content: "100%";
+}
+.progress progress[value="100"] ~ .progress-bg .progress-bar {
+    width: 100%;
+}
+#pagespeed_today_settings .progress {
+    font: 12px Arial, Tahoma, sans-serif;
+    position: relative;
+    overflow: hidden;
+    display: none;
+}
+.progress progress {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: -777px;
+}
+.progress-value {
+    color: #333;
+    display: block;
+    line-height: 21px;
+    text-align: center;
+}
+.progress-bg {
+    background: #e6e9ed;
+    position: relative;
+    height: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+@-webkit-keyframes progress_bar {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -40px 0;
+    }
+}
+@-moz-keyframes progress_bar {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -40px 0;
+    }
+}
+@keyframes progress_bar {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -40px 0;
+    }
+}
+.progress-bar {
+    overflow: hidden;
+    background: #3483de;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    -webkit-transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -ms-transition: width 1s linear;
+    transition: width 1s linear;
+}
+.progress-bar:after {
+    -webkit-animation: progress_bar 0.8s linear infinite;
+    -moz-animation: progress_bar 0.8s linear infinite;
+    -ms-animation: progress_bar 0.8s linear infinite;
+    -o-animation: progress_bar 0.8s linear infinite;
+    animation: progress_bar 0.8s linear infinite;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Absolute Center Spinner */
+#pagespeed_today_settings .loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+/* Transparent Overlay */
+#pagespeed_today_settings .loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+#pagespeed_today_settings .loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+#pagespeed_today_settings .loading:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 1500ms infinite linear;
+  -moz-animation: spinner 1500ms infinite linear;
+  -ms-animation: spinner 1500ms infinite linear;
+  -o-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
